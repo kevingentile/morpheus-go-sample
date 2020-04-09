@@ -1,0 +1,11 @@
+version: "3"
+services:
+  morpheus-go-sample-1-13:
+    build:
+      context: .
+      dockerfile: docker/1-13/Dockerfile
+
+  morpheus-go-sample-1-14:
+    build:
+      context: .
+      dockerfile: docker/1-13/Dockerfile
